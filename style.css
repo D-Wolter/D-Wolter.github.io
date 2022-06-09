@@ -59,7 +59,7 @@ header > div.fln {
     background-color: black;
     color: rgb(185, 177, 165);
     text-align: right;
-    font-size: 11px;
+    font-size: 100%;
     font-weight: 100;
     padding: 3px;
     padding-right: 8px;
@@ -106,7 +106,7 @@ td img#foto {
        /* configuração da foto mao*/
        /* configuração dos contatos*/
 td#contatos {
-    font-size: 80%;
+    font-size: 100%;
     text-align: right;
     font-weight: 300;
     
@@ -233,12 +233,12 @@ footer > p {
     
 }
 footer > p > a {
-    color: rgb(162, 224, 195);;
+    color: chartreuse;
     text-decoration: none;
 }
 section p strong {
     font-weight: 700;
-    color: rgb(28, 104, 69);;
+    color: rgb(28, 104, 69);
 }
 /*configuração do rodape*/
     
