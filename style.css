@@ -9,7 +9,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body {
-    background-color: rgb(143, 143, 143);
+    background-color: rgb(0, 0, 0);
     margin: 0%;
     width: 100%;
 }
@@ -31,7 +31,7 @@ header > nav {
     width: 100%;
 }
 nav > a {
-    color: rgb(22, 22, 22);
+    color: white;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 14px;
@@ -145,7 +145,7 @@ main {
 #lista {
     margin-left: 90px;
     margin-top: 0px;
-    font-size: 80%;
+    font-size: 110%;
     padding-bottom: 30px;
 }
 
@@ -163,7 +163,7 @@ main > div {
 }
 h2#apres {
     color: black;
-    font-size: 80%;
+    font-size: 110%;
     font-weight: 400;
     margin:auto;
     max-width: 600px;
@@ -223,7 +223,7 @@ section {
 footer > p {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: rgb(28, 104, 69);
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
