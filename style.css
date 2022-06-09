@@ -83,8 +83,8 @@ header td  {
        /* configuração da divisoria do logo,img e contatos*/
        /* configuração da fonte logo*/
 td#logoName {
-    font-size: 3.5vw;
-    padding-left: 20px;
+    font-size: 4vw;
+    padding-left: 50px;
     color: rgb(55, 156, 109);
     
 }
@@ -98,8 +98,8 @@ td#logoimg {
     margin-left: 10%;
 }
 td img#foto {
-    width: 80%;
-    margin-left: 20px;
+    width: 100%;
+    margin: 0 35px;
     margin-top: 1vw;
     border-radius: 4px;
 }
