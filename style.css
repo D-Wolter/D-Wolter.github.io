@@ -59,7 +59,7 @@ header > div.fln {
     background-color: black;
     color: rgb(185, 177, 165);
     text-align: right;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 100;
     padding: 3px;
     padding-right: 8px;
@@ -84,7 +84,7 @@ header td  {
        /* configuração da fonte logo*/
 td#logoName {
     font-size: 4vw;
-    padding-left: 50px;
+    padding-left: 60px;
     color: rgb(55, 156, 109);
     
 }
@@ -99,14 +99,14 @@ td#logoimg {
 }
 td img#foto {
     width: 100%;
-    margin: 0 35px;
+    margin: 0 30px;
     margin-top: 1vw;
     border-radius: 4px;
 }
        /* configuração da foto mao*/
        /* configuração dos contatos*/
 td#contatos {
-    font-size: 100%;
+    font-size: 90%;
     text-align: right;
     font-weight: 300;
     
