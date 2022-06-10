@@ -1,11 +1,14 @@
 
 :root {
+
     --verdeTrybeclaro: #24c789;
     --verdeTrybeEscuro: rgb(9, 105, 80);
 
     --NavFooterColor: black;
     --NavFooterText: rgb(232, 250, 232);
     --corFundo: rgb(232, 250, 232);
+
+
 }
 
 * {
@@ -27,7 +30,9 @@ header {
 }
 header > nav {
     color: antiquewhite;
+
     background-color: var(--NavFooterColor);
+
     text-align-last: right;
     font-family: 'Raleway', sans-serif;
     height: 25px;
@@ -40,13 +45,13 @@ nav > a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
     padding: 6px 5px;
-    background-color: var(--OrangeLogo);
+    background-color: var(--VerdeTrybe);
 }
 nav > a:hover {
     background-color: rgb(51, 51, 51);
-    color:var(--OrangeLogo);
+    color:var(--VerdeTrybe);
     transition-duration: 0.5s;
 }
 /* configuração do navegador de links*/
@@ -90,7 +95,9 @@ header td  {
 td#logoName {
     font-size: 4vw;
     padding-left: 60px;
+
     color: var(--verdeTrybeclaro);
+
     
 }
 td#logoName strong {
@@ -116,16 +123,20 @@ td#contatos {
     font-weight: 300;
     
 }
+
 p#email {
     margin: 0px;
     margin-bottom: 15px;
     margin-right: 15px;
     text-decoration: none;
     color: rgb(185, 177, 165);
+
 }
+
 a#cont {
     color: rgb(185, 177, 165);
     text-decoration: none;
+
 }
        /* configuração dos contatos*/
 /* configuração do banner*/
@@ -144,7 +155,6 @@ main {
 }
 
    
-
 /*configuração foto capa*/
 
 #lista {
@@ -152,6 +162,7 @@ main {
     margin-top: 0px;
     font-size: 110%;
     padding-bottom: 30px;
+
 }
 
 /*configuração texto apresentaçao*/
@@ -161,9 +172,6 @@ main > div {
     margin: auto;
     border-radius: 7px;
     background-color: aliceblue;
-    
-    
-    
     
 }
 h2#apres {
@@ -179,10 +187,9 @@ h2#apres {
     padding-right: 20px;
     text-align: justify;
     
-    
 }
 h2#apres > strong {
-    color: var(--OrangeLogo);
+    color: var(--VerdeTrybe);
 }
 /*configuração texto apresentaçao*/
 
@@ -202,10 +209,7 @@ div#trab p {
     
 }
 div#trab img {
-    
     width: 23%;
-    
-    
     max-width: 200px;
     
 }
@@ -228,46 +232,48 @@ section {
 /*configuração do rodape*/
 footer > p {
     text-align: center;
+
     color: var(--NavFooterText);
     background-color: var(--NavFooterColor);
+
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 20px;
     font-weight: 200;
-    
+
 }
 footer > p > a {
     color: var(--NavFooterText);
     text-decoration: none;
+
 }
 section p strong {
     font-weight: 700;
-    color: var(--NavFooterText);
-}
-/*configuração do rodape*/
-    
 
+    color: var(--NavFooterText);
+
+}
+
+/*configuração do rodape*/
 
 .links {
     margin-top: 30px;
     text-align: center;
     text-decoration: none;
     font-size: 30%;
+
     
     color: var(--verdeTrybeEscuro);
+
 }
+
 div#link {
     
     align-items: center;
-    
     font-size: 350%;
-    
     text-align: center;
     margin-bottom: 50px;
-    
-    
-    
-    
+
 }
