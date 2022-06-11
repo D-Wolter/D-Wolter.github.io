@@ -49,29 +49,12 @@ nav > a:hover {
 
 
 /* configuração do banner*/
-     /* configuração do banner localizado florianopolis*/
-header > div.fln {
-    position: absolute;
-    background-color: var(--verdeEscuro);
-    width: 100%;
-    height: 20px;
-    margin-top: 30px;
-}p#fln {
-    background-color: var(--verdeEscuro);
-    color: rgb(185, 177, 165);
-    text-align: right;
-    font-size: 90%;
-    font-weight: 100;
-    padding: 3px;
-    padding-right: 8px;
-}
-   /* configuração do banner localizado florianopolis*/
 
 
    /* configuração da divisoria do logo,img e contatos*/
 header > table {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 100%;
     height: 120px;
     border-collapse: collapse; 
@@ -84,24 +67,28 @@ header td  {
        /* configuração da divisoria do logo,img e contatos*/
        /* configuração da fonte logo*/
 td#logoName {
-    font-size: 3vw;
-    padding-left: 60px;
+    font-size: 4vw;
+    padding-left: 7%;
+    padding-top: 1%;
     color: rgb(233, 231, 231);
     font-weight: 500;
+    padding-bottom: 2%;
     
 }
 td#logoName strong {
     color: black;
+    
+    
 }
        /* configuração da fonte logo*/
        /* configuração da foto mao*/
 td#logoimg {
     width: 10%;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 td img#foto {
     width: 100%;
-    margin: 0 30px;
+    margin: 0 20%;
     margin-top: 1vw;
     border-radius: 4px;
 }
@@ -123,11 +110,7 @@ p#email {
 
 }
 
-a#cont {
-    color: rgb(185, 177, 165);
-    text-decoration: none;
 
-}
        /* configuração dos contatos*/
 /* configuração do banner*/
 
@@ -263,8 +246,6 @@ div#link {
 
 }
 
-
 .set {
     margin-left:4%;
 }
-
