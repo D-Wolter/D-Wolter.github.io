@@ -1,6 +1,7 @@
 
 :root {
-    --VerdeTrybe: #11a36a;
+    --verdeEscuro: #016b59;
+    --verdeClaro: #11a36a;
 }
 
 * {
@@ -9,7 +10,7 @@
     font-family: 'Raleway', sans-serif;
 }
 body {
-    background-color: rgb(193, 236, 216);
+    background-color:white;
     margin: 0%;
     width: 100%;
 }
@@ -21,8 +22,8 @@ header {
     height: 16px;
 }
 header > nav {
-    color: antiquewhite;
-    background-color: var(--VerdeTrybe);
+    color: white;
+    background-color: black;
     text-align-last: right;
     font-family: 'Raleway', sans-serif;
     height: 25px;
@@ -40,8 +41,8 @@ nav > a {
     background-color: var(--VerdeTrybe);
 }
 nav > a:hover {
-    background-color: rgb(51, 51, 51);
-    color:var(--VerdeTrybe);
+    background-color: var(--verdeClaro);
+    color: black;
     transition-duration: 0.5s;
 }
 /* configuração do navegador de links*/
@@ -51,12 +52,12 @@ nav > a:hover {
      /* configuração do banner localizado florianopolis*/
 header > div.fln {
     position: absolute;
-    background-color: black;
+    background-color: var(--verdeEscuro);
     width: 100%;
     height: 20px;
     margin-top: 30px;
 }p#fln {
-    background-color: black;
+    background-color: var(--verdeEscuro);
     color: rgb(185, 177, 165);
     text-align: right;
     font-size: 90%;
@@ -76,8 +77,8 @@ header > table {
     border-collapse: collapse; 
 }
 header td  {
-    color: antiquewhite;
-    background-color: black;
+    color: white;
+    background-color: var(--verdeEscuro);
     
 }
        /* configuração da divisoria do logo,img e contatos*/
@@ -85,11 +86,12 @@ header td  {
 td#logoName {
     font-size: 4vw;
     padding-left: 60px;
-    color: var(--VerdeTrybe)
+    color: rgb(233, 231, 231);
+    font-weight: 500;
     
 }
 td#logoName strong {
-    color: antiquewhite;
+    color: black;
 }
        /* configuração da fonte logo*/
        /* configuração da foto mao*/
@@ -206,8 +208,8 @@ div#basefotos {
     width: 750px;
     height: 100%;
     align-content: center;
-    border: 8px solid white;
-    background-color: white;
+    border: 1px solid var(--verdeEscuro);
+    background-color: rgb(231, 231, 231);
     
 }
 section {
@@ -221,7 +223,7 @@ section {
 footer > p {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: var(--VerdeTrybe);
+    background-color: var(--verdeEscuro);
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 13px;
@@ -231,13 +233,13 @@ footer > p {
 
 }
 footer > p > a {
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
 section p strong {
     font-weight: 700;
-    color: var(--VerdeTrybe);
+    color: black;
 
 }
 
@@ -248,7 +250,7 @@ section p strong {
     text-align: center;
     text-decoration: none;
     font-size: 30%;
-    color:var(--VerdeTrybe)
+    color:var(--verdeEscuro)
 
 }
 
@@ -259,4 +261,8 @@ div#link {
     text-align: center;
     margin-bottom: 50px;
 
+}
+
+.set {
+    margin-left:4%;
 }
