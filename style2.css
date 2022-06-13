@@ -1,0 +1,44 @@
+:root {
+    --verdeEscuro: #016b51;
+    --verdeClaro: #11a36a;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin: -35px 0 0 0;
+}
+.nav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: antiquewhite;
+    
+}
+.nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    
+}
+.banner {
+    margin-top: 35px;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-color: var(--verdeEscuro);
+}
+.banner h1 {
+    color: white;
+    margin-left: 250px;
+    margin-top: -160px;
+}
+.name {
+    color: black;
+    font-size: 40px;
+}
