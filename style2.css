@@ -5,6 +5,8 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: 'Raleway', sans-serif;
+
 }
 .nav {
     background-color: black;
@@ -30,15 +32,36 @@
     position: relative;
     display: block;
     width: 100%;
-    height: 220px;
+    
     background-color: var(--verdeEscuro);
 }
 .banner h1 {
     color: white;
     margin-left: 250px;
-    margin-top: -160px;
+    margin-top: -170px;
+    font-size: 30px;
+    padding-bottom: 110px;
 }
 .name {
     color: black;
     font-size: 40px;
+}
+.banner img {
+    margin-left: 20px;
+}
+.base {
+    width: 80%;
+    background-color: rgb(228, 228, 228);
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.artigo {
+    padding: 30px;
+}
+.lista {
+    padding: 0 0 30px 45px
+   
+}
+.footer {
+    background-color: var(--verdeEscuro);
 }
