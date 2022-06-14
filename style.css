@@ -39,12 +39,12 @@
     color: white;
     margin-left: 250px;
     margin-top: -170px;
-    font-size: 30px;
-    padding-bottom: 110px;
+    font-size: 200%;
+    padding-bottom: 30px;
 }
 .name {
     color: black;
-    font-size: 40px;
+    font-size: 130%;
 }
 .banner img {
     margin-left: 20px;
@@ -74,15 +74,35 @@
     color: white;
 }
 .container-cont {
-    margin: auto;
+    margin: 20px auto;
+    border-radius: 15px;
     width: 80%;
-    background-color: rgb(170, 167, 167);
-    height: 300px;
+    background-color: rgb(228, 228, 228);
     padding: 20px;
     text-align: center;
+    
     
 }
 .container-cont a {
     text-decoration: none;
-    list-style-type: none;
+    color: var(--verdeEscuro);
+    
+   
+}
+
+.base p {
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.set {
+    width: 90%;
+    margin: auto;
+}
+.set img {
+    width: 23%;
+    margin: auto;
 }
