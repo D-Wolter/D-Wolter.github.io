@@ -32,22 +32,23 @@
     position: relative;
     display: block;
     width: 100%;
+    min-height: 210px;
     
     background-color: var(--verdeEscuro);
 }
 .banner h1 {
     color: white;
-    margin-left: 250px;
+    margin-left: 220px;
     margin-top: -170px;
-    font-size: 200%;
-    padding-bottom: 30px;
+    font-size: 190%;
+    padding-bottom: 50px;
 }
 .name {
     color: black;
-    font-size: 130%;
+    font-size: 120%;
 }
 .banner img {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .base {
     width: 80%;
