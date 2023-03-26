@@ -1,2 +1,2 @@
-# Portfolio-Daniel Wolter.
-Web Developer Full Stack.
+# Portfolio-Daniel-Wolter.
+Web-Developer-Full-Stack.
